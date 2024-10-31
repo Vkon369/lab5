@@ -1,5 +1,5 @@
 const apiKey = '21f58ddf06e70046bd9c69752e998c47';
-const city = 'London'; // або інше місто за вашим бажанням
+const city = 'London';
 
 document.getElementById('fetchWeather').addEventListener('click', () => {
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=uk`)
